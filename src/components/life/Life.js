@@ -16,12 +16,12 @@ const Life = () => {
                     <h2 className='life-title'>Explore Life @ Crosspath</h2>
                     <div className='gallery'>
                         <Image.PreviewGroup>
-                            <Image loading='lazy' placeholder={true} className='g-image' src={img1} />
-                            <Image loading='lazy' placeholder={true} className='g-image' src={img2}/>
-                            <Image loading='lazy' placeholder={true} className='g-image' src={img3} />
-                            <Image loading='lazy' placeholder={true} className='g-image' src={img4} />
-                            <Image loading='lazy' placeholder={true} className='g-image' src={img5} />
-                            <Image loading='lazy' placeholder={true} className='g-image' src={img6} />
+                            <Image alt="life at crosspath" loading='lazy' placeholder={true} className='g-image' src={img1} />
+                            <Image alt="life at crosspath" loading='lazy' placeholder={true} className='g-image' src={img2}/>
+                            <Image alt="life at crosspath" loading='lazy' placeholder={true} className='g-image' src={img3} />
+                            <Image alt="life at crosspath" loading='lazy' placeholder={true} className='g-image' src={img4} />
+                            <Image alt="life at crosspath" loading='lazy' placeholder={true} className='g-image' src={img5} />
+                            <Image alt="life at crosspath" loading='lazy' placeholder={true} className='g-image' src={img6} />
                         </Image.PreviewGroup>
                     </div>
                 </div>
