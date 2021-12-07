@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/crosspath-webdesign/static/css/main.6a188b44.chunk.css",
+    "main.js": "/crosspath-webdesign/static/js/main.abe449df.chunk.js",
+    "main.js.map": "/crosspath-webdesign/static/js/main.abe449df.chunk.js.map",
+    "runtime-main.js": "/crosspath-webdesign/static/js/runtime-main.620e0b3f.js",
+    "runtime-main.js.map": "/crosspath-webdesign/static/js/runtime-main.620e0b3f.js.map",
+    "static/css/2.2b8316e7.chunk.css": "/crosspath-webdesign/static/css/2.2b8316e7.chunk.css",
+    "static/js/2.ef31ef4e.chunk.js": "/crosspath-webdesign/static/js/2.ef31ef4e.chunk.js",
+    "static/js/2.ef31ef4e.chunk.js.map": "/crosspath-webdesign/static/js/2.ef31ef4e.chunk.js.map",
+    "index.html": "/crosspath-webdesign/index.html",
+    "static/css/2.2b8316e7.chunk.css.map": "/crosspath-webdesign/static/css/2.2b8316e7.chunk.css.map",
+    "static/css/main.6a188b44.chunk.css.map": "/crosspath-webdesign/static/css/main.6a188b44.chunk.css.map",
+    "static/js/2.ef31ef4e.chunk.js.LICENSE.txt": "/crosspath-webdesign/static/js/2.ef31ef4e.chunk.js.LICENSE.txt",
+    "static/media/business.a1b522ab.svg": "/crosspath-webdesign/static/media/business.a1b522ab.svg",
+    "static/media/enterprise.dc7a6230.svg": "/crosspath-webdesign/static/media/enterprise.dc7a6230.svg",
+    "static/media/facebook.c3223eeb.svg": "/crosspath-webdesign/static/media/facebook.c3223eeb.svg",
+    "static/media/hero.scss": "/crosspath-webdesign/static/media/graphic.487e4588.svg",
+    "static/media/hero.f6579cd6.png": "/crosspath-webdesign/static/media/hero.f6579cd6.png",
+    "static/media/instagram.de9a312e.svg": "/crosspath-webdesign/static/media/instagram.de9a312e.svg",
+    "static/media/linkedin.61ebf9bc.svg": "/crosspath-webdesign/static/media/linkedin.61ebf9bc.svg",
+    "static/media/logo-white.23545926.svg": "/crosspath-webdesign/static/media/logo-white.23545926.svg",
+    "static/media/logo.666b6fd9.svg": "/crosspath-webdesign/static/media/logo.666b6fd9.svg",
+    "static/media/starter.0b8907d5.svg": "/crosspath-webdesign/static/media/starter.0b8907d5.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.620e0b3f.js",
+    "static/css/2.2b8316e7.chunk.css",
+    "static/js/2.ef31ef4e.chunk.js",
+    "static/css/main.6a188b44.chunk.css",
+    "static/js/main.abe449df.chunk.js"
+  ]
+}
