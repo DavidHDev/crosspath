@@ -1,0 +1,139 @@
+.careers {
+    min-height: 100vh;
+    padding: 10em 0;
+    position: relative;
+    overflow-x: hidden;
+
+    .careers-content {
+        width: 80%;
+        margin: 0 auto;
+
+        .career-copy {
+            width: fit-content;
+
+            .careers-title {
+                font-weight: 600;
+                font-size: 5rem;
+                line-height: 110%;
+                color: #ff575a;
+                margin-bottom: 0.3em;
+            }
+
+            .careers-subtitle {
+                font-family: "Vollkorn", sans-serif;
+                font-size: 1.8em;
+                color: #ff575a;
+            }
+
+            .form-info {
+                margin-bottom: 1em;
+                color: #faf7f2;
+            }
+
+            .careers-form {
+                display: flex;
+                flex-direction: column;
+
+                .career-input {
+                    width: 450px;
+                }
+
+                .submit-button {
+                    margin-top: 1em;
+                    width: 200px;
+                    height: 45px;
+                    border: none;
+                    border-radius: 5px;
+                    background-color: #ff575a;
+                    color: #faf7f2;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+
+    .background-image {
+        position: absolute;
+        z-index: -1;
+        right: 5%;
+        bottom: 0;
+        width: 35%;
+        border-radius: 5px 5px 0 0;
+        box-shadow: 0 0 40px rgba(0,0,0,0.2);
+        height: 600px;
+        background-image: url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+
+        .gradient-overlay {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            border-radius: 5px 5px 0 0;
+            background-image: linear-gradient(to bottom, #ff575a96, transparent);
+        }
+    }
+}
+
+
+@media only screen and (max-width: 1300px) { 
+    .careers {
+        .background-image {
+            width: 400px;
+            height: 400px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1060px) { 
+    .careers {
+        .background-image {
+            display: none;
+        }
+    }
+}
+
+@media only screen and (max-width: 565px) { 
+    .careers {
+        .careers-content {
+            .career-copy {
+                .careers-title {
+                    font-size: 3rem;
+                }
+
+                .careers-form {
+                    .career-input {
+                        width: 300px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 450px) { 
+    .careers {
+        padding-bottom: 2em;
+        .careers-content {
+            width: 90%;
+            .career-copy {
+                .careers-title {
+                    font-size: 3rem;
+                }
+
+                .careers-form {
+                    .career-input {
+                        width: 100%;
+                    }
+
+                    .submit-button {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

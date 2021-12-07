@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&family=Vollkorn&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+::selection {
+  background-color: #111;
+  color: #ff575a;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Sora", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #450a28;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+p {
+  margin: 0;
+}
+
+.ant-carousel .slick-dots {
+  position: relative !important;
+  top: 25px;
+}
+
+.ant-carousel .slick-dots li {
+  background-color: #450a28 !important;
+  width: 16px;
+}
+
+.ant-carousel .slick-dots li.slick-active {
+  button {
+    background-color: #ff575a;
+  }
+}
+
+.ant-input {
+  background-color: #450a28;
+  border: 1px solid #faf7f2;
+  border-radius: 5px;
+  color: #faf7f2;
+
+  &:hover {
+    border-color: #ff575a;
+  }
+
+  &:focus {
+    border-color: #ff575a;
+    color: #ff575a;
+    box-shadow: none;
+  }
+
+  &:active {
+    border-color: #ff575a;
+    color: #ff575a;
+    box-shadow: none;
+  }
+}
+
+.ant-input-lg {
+  padding: 10px 14px;
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  background-color: #450a28;
+  border: 1px solid #faf7f2;
+  border-radius: 5px;
+  color: #faf7f2;
+  height: 60px;
+
+  &:hover {
+    border-color: #ff575a;
+  }
+
+  &:focus {
+    border-color: #ff575a;
+    color: #ff575a;
+    box-shadow: none;
+  }
+
+  &:active {
+    border-color: #ff575a;
+    color: #ff575a;
+    box-shadow: none;
+  }
+}
+
+.ant-select-selector {
+  height: 47px !important;
+}
+
+.ant-select-arrow {
+  color: #faf7f2;
+}
+
+.ant-select-focused:not(.ant-select-disabled).ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  border-color: #ff575a;
+  box-shadow: none;
+}
+
+.ant-select-single.ant-select-lg:not(.ant-select-customize-input) .ant-select-selector::after, .ant-select-single.ant-select-lg:not(.ant-select-customize-input) .ant-select-selector .ant-select-selection-item, .ant-select-single.ant-select-lg:not(.ant-select-customize-input) .ant-select-selector .ant-select-selection-placeholder {
+  line-height: 3;
+}
+
+.ant-image-preview-operations {
+  background-color: #450a28;
+  height: 60px;
+}
+
+.ant-image-img {
+  object-fit: cover;
+}
+
+.ant-image-preview-switch-left, .ant-image-preview-switch-right {
+  margin: 1em;
+  background-color: #450a28;
+  border: 1px solid #ff575a;
+  color: #ff575a;
+  transition: .2s ease;
+
+  &:hover {
+    background-color: #ff575a;
+    color: #faf7f2;
+    transition: .2s ease;
+  }
+}
+
+.ant-image-preview-switch-left-disabled, .ant-image-preview-switch-right-disabled {
+  opacity: 0.5;
+
+  &:hover {
+    background-color: #450a28;
+    color: #ff575a;
+  }
+}

@@ -1,0 +1,365 @@
+.services {
+    width: 100%;
+    background-color: #d1dfef;
+    min-height: 500px;
+    padding-bottom: 6em;
+
+    .services-card {
+        width: 80%;
+        margin: 0 auto;
+        min-height: 500px;
+        background-color: #faf7f2;
+        position: relative;
+        top: -100px;
+        color: #111;
+        border-radius: 5px;
+        box-shadow: 0 5px 80px rgba(0, 0, 0, 0.1);
+        padding: 6em 8em;
+
+        .services-title {
+            font-size: 2rem;
+            font-weight: 600;
+            margin-bottom: 0.5em;
+        }
+
+        .services-description {
+            font-family: "Vollkorn", sans-serif;
+            font-size: 1.2rem;
+            width: 45ch;
+            line-height: 120%;
+            margin-bottom: 2em;
+        }
+
+        .features-list {
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+
+            .feature {
+                display: flex;
+                align-items: flex-end;
+                justify-content: space-between;
+                padding-bottom: 1em;
+                margin-bottom: 2em;
+                border-bottom: 2px solid #111;
+
+                .feature-left {
+                    display: flex;
+                    align-items: flex-end;
+
+                    .feature-no {
+                        position: relative;
+                        top: 20px;
+                        font-size: 4rem;
+                        margin-right: 1em;
+                    }
+
+                    .feature-title {
+                        font-weight: 600;
+                        font-size: 1.4rem;
+                        line-height: 120%;
+                    }
+                }
+
+                .feature-desc {
+                    font-family: 'Vollkorn', sans-serif;
+                    font-size: 1.2rem;
+                    width: 35ch;
+                    line-height: 120%;
+                }
+            }
+        }
+    }
+
+    .features-text {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 2em;
+
+        .cards-title {
+            color: #0B1D2E;
+            font-weight: 600;
+            font-size: 4.5rem;
+            margin-bottom: 0;
+        }
+
+        .cards-description {
+            font-family: 'Vollkorn', sans-serif;
+            font-size: 1.1rem;
+            width: 45ch;
+            line-height: 120%;
+            text-align: center;
+            color: #0B1D2E;
+            margin-bottom: 1em;
+        }
+    }
+
+    .feature-cards {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        .feature-card {
+            min-height: 300px;
+            padding: 4em 3em;
+            width: 32%;
+            border-radius: 5px;
+            background-color: #faf7f2;
+            transition: .2s ease;
+
+            &:hover {
+                background-color: #0B1D2E;
+                transition: .2s ease;
+
+                .card-title {
+                    color: #faf7f2;
+                    transition: .2s ease;
+                }
+
+                .card-copy {
+                    color: #faf7f2;
+                    transition: .2s ease;
+                }
+            }
+            
+            .card-title {
+                color: #0B1D2E;
+                text-align: center;
+                font-size: 1.5rem;
+                font-weight: 600;
+                margin-bottom: 1em;
+                transition: .2s ease;
+                user-select: none;
+            }
+
+            .card-copy {
+                color: #0B1D2E;
+                font-family: 'Vollkorn', sans-serif;
+                font-size: 1rem;
+                line-height: 120%;
+                transition: .2s ease;
+                user-select: none;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .services {
+        .services-card {
+            padding: 4em 6em;
+
+            .features-list {
+
+                .feature {
+
+                    .feature-left {
+
+                        .feature-no {
+                            font-size: 3rem;
+                        }
+
+                        .feature-title {
+                            font-size: 1rem;
+                        }
+                    }
+
+                    .feature-desc {
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    .services {
+        .services-card {
+            padding: 2em 4em;
+
+            .features-list {
+
+                .feature {
+
+                    .feature-left {
+
+                        .feature-no {
+                            font-size: 2.5rem;
+                            top: 15px;
+                        }
+
+                        .feature-title {
+                            font-size: 1rem;
+                        }
+                    }
+
+                    .feature-desc {
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+
+        .feature-cards {
+            .feature-card {
+                padding: 2em;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .services {
+        .services-card {
+            .services-description {
+                width: auto;
+            }
+
+            .features-list {
+
+                .feature {
+
+                    .feature-left {
+                        flex-direction: column;
+                        justify-content: flex-start;
+                        align-items: flex-start;
+                        margin-right: 2em;
+
+                        .feature-no {
+                            margin: 0;
+                            top: 10px;
+                        }
+                    }
+
+                    .feature-desc {
+                        width: auto;
+                    }
+                }
+            }
+        }
+
+        .feature-cards {
+            flex-direction: column;
+
+            .feature-card {
+                min-height: auto;
+                width: 100%;
+                margin-bottom: 2em;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .services {
+        .services-card {
+            .services-title {
+                font-size: 1.7rem;
+                line-height: 120%;
+            }
+
+            .services-description {
+                font-size: 1rem;
+            }
+
+            .features-list {
+                .feature {
+                    flex-direction: column;
+
+                    .feature-left {
+                        flex-direction: row;
+                        align-items: flex-end;
+                        margin-right: 0;
+                        width: 100%;
+                        margin-bottom: 1em;
+
+                        .feature-no {
+                            margin-right: .5em;
+                            font-size: 2.5rem;
+                            top: 15px;
+                        }
+
+                        .feature-title {
+                            font-size: 1rem;
+                        }
+                    }
+
+                    .feature-desc {
+                        font-size: 1rem;
+                        width: auto;
+                    }
+                }
+            }
+        }
+
+        .features-text {
+            .cards-title {
+                font-size: 2rem;
+            }
+
+            .cards-description {
+                padding: 0 2em;
+                width: auto;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .services {
+        .services-card {
+            padding: 2em;
+            width: 90%;
+
+            .services-title {
+                font-size: 1.7rem;
+                line-height: 120%;
+            }
+
+            .services-description {
+                width: auto;
+                font-size: 1rem;
+            }
+
+            .features-list {
+
+                .feature {
+                    flex-direction: column;
+
+                    .feature-left {
+                        flex-direction: row;
+                        align-items: flex-end;
+                        margin-right: 0;
+                        width: 100%;
+                        margin-bottom: 1em;
+
+                        .feature-no {
+                            margin-right: .5em;
+                            font-size: 2.5rem;
+                            top: 15px;
+                        }
+
+                        .feature-title {
+                            font-size: 1rem;
+                        }
+                    }
+
+                    .feature-desc {
+                        font-size: 1rem;
+                        width: auto;
+                    }
+                }
+            }
+        }
+
+        .feature-cards {
+            width: 90%;
+        }
+    }
+}

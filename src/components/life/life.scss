@@ -1,0 +1,79 @@
+.life {
+    min-height: 700px;
+    background-color: #0b1d2e;
+    position: relative;
+    
+    .life-card {
+        width: 80%;
+        padding: 4em 2em;
+        min-height: 600px;
+        position: relative;
+        top: -15vh;
+        border-radius: 5px;
+        margin: 0 auto;
+        background-color: #d1dfef;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .life-title {
+            color: #0b1d2e;
+            font-size: 2rem;
+            margin-bottom: 1.5em;
+            text-align: center;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            .g-image {
+                margin: 10px;
+                width: 380px;
+                height: 380px;
+                border-radius: 5px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 610px) { 
+    .life {
+        .life-card {
+            .life-title {
+                font-size: 1.3rem;
+            }
+
+            .gallery {
+
+                .g-image {
+                    width: 300px;
+                    height: 300px;
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 450px) { 
+    .life {
+        .life-card {
+            width: 90%;
+        }
+    }
+}
+
+@media only screen and (max-width: 374px) { 
+    .life {
+        .life-card {
+            .gallery {
+                .g-image {
+                    width: 200px;
+                    height: 200px;
+                }
+            }
+        }
+    }
+}

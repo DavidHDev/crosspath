@@ -1,0 +1,146 @@
+.testimonials {
+    background-color: #0b1d2e;
+    min-height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 6em;
+    position: relative;
+
+    .carousel-container {
+        width: 80%;
+        max-width: 80%;
+        margin: 0 auto;
+
+        .section-crossover {
+            position: absolute;
+            width: 100%;
+            left: 0;
+            height: 300px;
+            background-color: #d1dfef;
+            bottom: 0;
+        }
+
+        .testimonials-title {
+            text-align: center;
+            color: #faf7f2;
+            font-weight: 600;
+            margin: 2em 0;
+            font-size: 2.5rem;
+        }
+
+        .carousel-item {
+            border-radius: 5px;
+            min-height: 400px;
+            padding: 1.5em;
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+
+            .carousel-card {
+                padding: 2em;
+                border-radius: 5px;
+                height: 400px;
+                width: 100%;
+                background-color: #faf7f2;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+
+                .carousel-title {
+                    margin: 0;
+                    font-size: 1.3rem;
+                    text-align: center;
+                    font-weight: 600;
+                    color: #0b1d2e;
+                }
+
+                .carousel-quote {
+                    font-family: 'Vollkorn', sans-serif;
+                    font-size: 2rem;
+                    width: 35ch;
+                    text-align: center;
+                    line-height: 150%;
+                }
+                
+                .carousel-person {
+                    color: rgb(168, 168, 168);
+                    text-align: center;
+                }
+            }
+        }
+
+        .ci1 {
+            background-image: url("https://images.unsplash.com/photo-1637249805971-59d7b9319df3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+        }
+
+        .ci2 {
+            background-image: url("https://images.unsplash.com/photo-1637603460405-3c86307993aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+        }
+
+        .ci3 {
+            background-image: url("https://images.unsplash.com/photo-1636943191019-522c6c16595f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+        }
+
+        .ci4 {
+            background-image: url("https://images.unsplash.com/photo-1557860855-159a8c0d18f7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80");
+        }
+    }
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .testimonials {
+        .carousel-container {
+            .carousel-item {
+                .carousel-card {
+                    .carousel-quote {
+                        font-size: 1.5em;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .testimonials {
+        .carousel-container {
+            .carousel-item {
+                .carousel-card {
+                    .carousel-quote {
+                        font-size: 1.5em;
+                        width: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .testimonials {
+        padding-bottom: 3em;
+
+        .carousel-container {
+            width: 90%;
+            max-width: 90%;
+
+            .testimonials-title {
+                font-size: 1.5rem;
+            }
+            .carousel-item {
+                padding: 1em;
+                .carousel-card {
+                    
+                    .carousel-quote {
+                        font-size: 1.2em;
+                        width: auto;
+                    }
+                }
+            }
+        }
+    }
+}

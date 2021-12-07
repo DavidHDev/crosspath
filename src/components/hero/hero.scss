@@ -1,0 +1,107 @@
+.hero {
+    width: 100%;
+    background-color: #450a28;
+    min-height: 750px;
+    background-image: url("../../assets/svg/graphic.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+
+    .hero-content {
+        position: relative;
+        width: 80%;
+        margin: 0 auto 2em auto;
+
+        .headline {
+            color: #ff575a;
+            font-size: 4.5vw;
+            line-height: 100%;
+        }
+
+        .sub-headline {
+            font-family: "Vollkorn", sans-serif;
+            color: #ff575a;
+            font-size: 1.8rem;
+            line-height: 120%;
+            width: 30ch;
+        }
+
+        .hero-img {
+            z-index: 2;
+            position: absolute;
+            top: -50px;
+            right: 1em;
+        }
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .hero {
+        .hero-content {
+            .hero-img {
+                width: 300px;
+                height: auto;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1075px) {
+    .hero {
+        .hero-content {
+            .hero-img {
+                width: 200px;
+                height: auto;
+            }
+
+            .sub-headline {
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .hero {
+        .hero-content {
+            .hero-img {
+                display: none;
+            }
+            .headline {
+                font-size: 50px;
+            }
+            .sub-headline {
+                font-size: 1.8rem;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .hero {
+        .hero-content {
+            .sub-headline {
+                font-size: 1.2rem;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .hero {
+        min-height: 600px;
+        .hero-content {
+            width: 90%;
+
+            .headline {
+                font-size: 40px;
+            }
+            .sub-headline {
+                font-size: 1.2rem;
+                width: 25ch;
+            }
+        }
+    }
+}
