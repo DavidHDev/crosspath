@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/crosspath-webdesign/static/css/main.6a188b44.chunk.css",
+    "main.css": "/crosspath-webdesign/static/css/main.72812800.chunk.css",
     "main.js": "/crosspath-webdesign/static/js/main.b847da04.chunk.js",
     "main.js.map": "/crosspath-webdesign/static/js/main.b847da04.chunk.js.map",
     "runtime-main.js": "/crosspath-webdesign/static/js/runtime-main.620e0b3f.js",
@@ -10,7 +10,7 @@
     "static/js/2.ef31ef4e.chunk.js.map": "/crosspath-webdesign/static/js/2.ef31ef4e.chunk.js.map",
     "index.html": "/crosspath-webdesign/index.html",
     "static/css/2.2b8316e7.chunk.css.map": "/crosspath-webdesign/static/css/2.2b8316e7.chunk.css.map",
-    "static/css/main.6a188b44.chunk.css.map": "/crosspath-webdesign/static/css/main.6a188b44.chunk.css.map",
+    "static/css/main.72812800.chunk.css.map": "/crosspath-webdesign/static/css/main.72812800.chunk.css.map",
     "static/js/2.ef31ef4e.chunk.js.LICENSE.txt": "/crosspath-webdesign/static/js/2.ef31ef4e.chunk.js.LICENSE.txt",
     "static/media/business.a1b522ab.svg": "/crosspath-webdesign/static/media/business.a1b522ab.svg",
     "static/media/enterprise.dc7a6230.svg": "/crosspath-webdesign/static/media/enterprise.dc7a6230.svg",
@@ -27,7 +27,7 @@
     "static/js/runtime-main.620e0b3f.js",
     "static/css/2.2b8316e7.chunk.css",
     "static/js/2.ef31ef4e.chunk.js",
-    "static/css/main.6a188b44.chunk.css",
+    "static/css/main.72812800.chunk.css",
     "static/js/main.b847da04.chunk.js"
   ]
 }
