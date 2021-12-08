@@ -9,7 +9,7 @@ const Pricing = () => {
         <section className="pricing" id="pricing">
             <div className='pricing-content'>
                 <Fade top>
-                    <h2 className='pricing-title'>Bang for your buck</h2>
+                    <h2 className='pricing-title'>Supercharge your teams</h2>
                     <p className='pricing-description'>Select a plan based on your company's needs</p>
                 </Fade>
                 <Fade bottom cascade>
