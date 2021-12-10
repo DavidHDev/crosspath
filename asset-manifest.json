@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/crosspath-webdesign/static/css/main.72812800.chunk.css",
-    "main.js": "/crosspath-webdesign/static/js/main.56871c1c.chunk.js",
-    "main.js.map": "/crosspath-webdesign/static/js/main.56871c1c.chunk.js.map",
+    "main.js": "/crosspath-webdesign/static/js/main.927df650.chunk.js",
+    "main.js.map": "/crosspath-webdesign/static/js/main.927df650.chunk.js.map",
     "runtime-main.js": "/crosspath-webdesign/static/js/runtime-main.620e0b3f.js",
     "runtime-main.js.map": "/crosspath-webdesign/static/js/runtime-main.620e0b3f.js.map",
     "static/css/2.2b8316e7.chunk.css": "/crosspath-webdesign/static/css/2.2b8316e7.chunk.css",
@@ -16,13 +16,13 @@
     "static/media/enterprise.dc7a6230.svg": "/crosspath-webdesign/static/media/enterprise.dc7a6230.svg",
     "static/media/facebook.c3223eeb.svg": "/crosspath-webdesign/static/media/facebook.c3223eeb.svg",
     "static/media/hero.scss": "/crosspath-webdesign/static/media/graphic.487e4588.svg",
-    "static/media/hero.f6579cd6.png": "/crosspath-webdesign/static/media/hero.f6579cd6.png",
-    "static/media/img1.f0e1d20b.jpeg": "/crosspath-webdesign/static/media/img1.f0e1d20b.jpeg",
-    "static/media/img2.0fe843e5.jpeg": "/crosspath-webdesign/static/media/img2.0fe843e5.jpeg",
-    "static/media/img3.73107008.jpeg": "/crosspath-webdesign/static/media/img3.73107008.jpeg",
-    "static/media/img4.8727ce55.jpeg": "/crosspath-webdesign/static/media/img4.8727ce55.jpeg",
-    "static/media/img5.2232abe4.jpeg": "/crosspath-webdesign/static/media/img5.2232abe4.jpeg",
-    "static/media/img6.143ce2dc.jpeg": "/crosspath-webdesign/static/media/img6.143ce2dc.jpeg",
+    "static/media/hero.c378dbc9.webp": "/crosspath-webdesign/static/media/hero.c378dbc9.webp",
+    "static/media/img1.49dab6de.webp": "/crosspath-webdesign/static/media/img1.49dab6de.webp",
+    "static/media/img2.b697a0d5.webp": "/crosspath-webdesign/static/media/img2.b697a0d5.webp",
+    "static/media/img3.4e91a8d0.webp": "/crosspath-webdesign/static/media/img3.4e91a8d0.webp",
+    "static/media/img4.86f60193.webp": "/crosspath-webdesign/static/media/img4.86f60193.webp",
+    "static/media/img5.643a2ecf.webp": "/crosspath-webdesign/static/media/img5.643a2ecf.webp",
+    "static/media/img6.8fbeceb1.webp": "/crosspath-webdesign/static/media/img6.8fbeceb1.webp",
     "static/media/instagram.de9a312e.svg": "/crosspath-webdesign/static/media/instagram.de9a312e.svg",
     "static/media/linkedin.61ebf9bc.svg": "/crosspath-webdesign/static/media/linkedin.61ebf9bc.svg",
     "static/media/logo-white.23545926.svg": "/crosspath-webdesign/static/media/logo-white.23545926.svg",
@@ -34,6 +34,6 @@
     "static/css/2.2b8316e7.chunk.css",
     "static/js/2.ef31ef4e.chunk.js",
     "static/css/main.72812800.chunk.css",
-    "static/js/main.56871c1c.chunk.js"
+    "static/js/main.927df650.chunk.js"
   ]
 }
