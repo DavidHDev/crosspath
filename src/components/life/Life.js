@@ -1,12 +1,12 @@
 import { Image } from 'antd';
 import './life.scss';
 import { Fade } from 'react-reveal';
-import img1 from '../../assets/img/img1.jpeg';
-import img2 from '../../assets/img/img2.jpeg';
-import img3 from '../../assets/img/img3.jpeg';
-import img4 from '../../assets/img/img4.jpeg';
-import img5 from '../../assets/img/img5.jpeg';
-import img6 from '../../assets/img/img6.jpeg';
+import img1 from '../../assets/img/img1.webp';
+import img2 from '../../assets/img/img2.webp';
+import img3 from '../../assets/img/img3.webp';
+import img4 from '../../assets/img/img4.webp';
+import img5 from '../../assets/img/img5.webp';
+import img6 from '../../assets/img/img6.webp';
 
 const Life = () => {
     return (

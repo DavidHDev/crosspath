@@ -1,5 +1,5 @@
 import './hero.scss';
-import hero from '../../assets/img/hero.png';
+import hero from '../../assets/img/hero.webp';
 import { Fade } from 'react-reveal';
 
 const Hero = () => {
