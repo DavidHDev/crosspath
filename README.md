@@ -1,5 +1,3 @@
-# Web Design Individual Project
-* Scenario: a website for an IT start-up company
 * Main Technology: React
 * Styling: Sass (SCSS)
 * Libraries: react-reveal (Animations), react-router (Routing), antd (Component Library).
